@@ -1,1 +1,2 @@
 # en-to-bn-machine-translation
+Developed an end-to-end machine translation pipeline by fine-tuning a pretrained MarianMT Transformer (Seq2Seq) model for English-to-Bangla translation. Implemented a custom PyTorch Dataset and DataLoader with tokenization, padding, and attention masking. Trained using PyTorch Lightning with AdamW optimizer, Cosine Annealing scheduler, and mixed-precision (FP16) for efficiency. Model performance was evaluated using BLEU Score on validation and test sets.
